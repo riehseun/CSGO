@@ -1,0 +1,13 @@
+In order to run the application, you need to
+
+1. provide own hostname, username, and password in the  "scripts/mysql_connect.php"
+
+2. type the following in the terminal
+
+"mysql -u username -p password"
+
+"create database csgo;"
+
+3. go to directory where csgo.sql is located and exucute the following command
+
+"mysql -u username -p password csgo < csgo.sql"
